@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        button {
+            margin: 10px 0;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        div {
+            margin: 10px 0;
+            padding: 10px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        #task4Output ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        #task4Output li {
+            margin: 5px 0;
+        }
+        h1 {
+            color: #333;
+        }
+    </style>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Task 1a -->
+    <div>
+        <p>Task 1a: Enter a quantity</p>
+        <button type="button" onclick="task_1a()">Enter quantity</button>
+        <div id="qty"></div>
+    </div>
+
+    <!-- Task 1b -->
+    <div>
+        <p>Task 1b: Enter a percentage</p>
+        <button type="button" onclick="task_1b()">Enter percentage</button>
+        <div id="task1Output"></div>
+    </div>
+
+    <!-- Task 2 -->
+    <div>
+        <p>Task 2: Convert grade to letter</p>
+        <button type="button" onclick="task_2()">Enter Grade</button>
+        <div id="task2Output"></div>
+    </div>
+
+    <!-- Task 3 -->
+    <div>
+        <p>Task 3: Write lines to console</p>
+        <button type="button" onclick="task_3()">Start loop</button>
+        <div id="task3Output"></div>
+    </div>
+
+    <!-- Task 4 -->
+    <div>
+        <p>Task 4: Write lines to page using while loop</p>
+        <button type="button" onclick="task_4()">Start loop</button>
+        <div id="task4Output"></div>
+    </div>
+
+    <!-- Task 5 -->
+    <div>
+        <p>Task 5: Write lines to page using arrow function</p>
+        <button type="button" onclick="task_5()">Start loop</button>
+        <div id="task5Output"></div>
+    </div>
+
+    <!-- Task 6 -->
+    <div>
+        <p>Task 6: Display Times Tables</p>
+        <button type="button" onclick="task_6()">Show Times Tables</button>
+        <div class="tables"></div>
+    </div>
+    <!-- Task 7 -->
+    <div>
+        <p>Task 7: Hoisting</p>
+        <button type="button" onclick="task_7()">Show Hoisting Examples</button>
+        <div id="task7Output"></div>
+    </div>
+
+</body>
+</html>
